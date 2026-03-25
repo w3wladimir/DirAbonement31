@@ -9,9 +9,6 @@
     <value>Сотрудник</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Сотрудники</types>
   </type>
 </mdclass:DefinedType>

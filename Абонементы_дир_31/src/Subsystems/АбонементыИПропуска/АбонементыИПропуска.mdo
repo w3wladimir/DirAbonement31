@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46224f26-efdb-4ee9-b542-a29b76b205b5">
+  <name>АбонементыИПропуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонементы и пропуска</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Полный</subsystems>
+  <subsystems>АбонементыПродажа</subsystems>
+  <subsystems>ПропускаВыдача</subsystems>
+  <subsystems>НастройкаПрограммы</subsystems>
+</mdclass:Subsystem>
