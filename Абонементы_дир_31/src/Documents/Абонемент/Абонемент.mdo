@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0797f274-933c-42c4-bc0a-7cb431e74c64">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0797f274-933c-42c4-bc0a-7cb431e74c64">
   <producedTypes>
     <objectType typeId="7f91caab-2072-4bf4-813e-a4c124819adb" valueTypeId="dd8f1e1d-0ff9-4cdb-b797-a48adc391d65"/>
     <refType typeId="7d303fa9-55cd-4ecf-9819-dc6c623c9baa" valueTypeId="473d7e6b-abe8-406f-9133-d7f0f0d4d438"/>
@@ -25,4 +25,19 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c82cbf91-4015-4c74-a4d3-8b12a52ee446">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Подразделение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
