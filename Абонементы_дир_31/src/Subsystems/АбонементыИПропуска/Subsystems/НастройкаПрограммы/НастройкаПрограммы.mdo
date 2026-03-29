@@ -10,5 +10,6 @@
   <content>Catalog.ФизическиеЛица</content>
   <content>Catalog.Должности</content>
   <content>Catalog.Сотрудники</content>
+  <content>Catalog.Контрагенты</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

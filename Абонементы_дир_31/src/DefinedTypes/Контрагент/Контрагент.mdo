@@ -9,9 +9,6 @@
     <value>Контрагент</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Контрагенты</types>
   </type>
 </mdclass:DefinedType>

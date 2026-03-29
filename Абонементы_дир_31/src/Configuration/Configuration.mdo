@@ -2296,6 +2296,7 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2307,6 +2308,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.Абонемент</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
@@ -2414,6 +2416,7 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ТипКонтрагента</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>

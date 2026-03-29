@@ -7,8 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ФизическиеЛица</content>
-  <content>Catalog.Должности</content>
-  <content>Catalog.Сотрудники</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

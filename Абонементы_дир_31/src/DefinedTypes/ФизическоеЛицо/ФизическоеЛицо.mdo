@@ -10,9 +10,5 @@
   </synonym>
   <type>
     <types>CatalogRef.ФизическиеЛица</types>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
   </type>
 </mdclass:DefinedType>
