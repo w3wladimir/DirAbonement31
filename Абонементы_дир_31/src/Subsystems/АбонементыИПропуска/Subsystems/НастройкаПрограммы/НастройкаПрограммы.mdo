@@ -11,5 +11,6 @@
   <content>Catalog.Должности</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Контрагенты</content>
+  <content>Document.УстановкаЦенАбонементов</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

@@ -2309,6 +2309,7 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.Абонемент</documents>
+  <documents>Document.УстановкаЦенАбонементов</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
