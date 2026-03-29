@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0797f274-933c-42c4-bc0a-7cb431e74c64">
+  <producedTypes>
+    <objectType typeId="7f91caab-2072-4bf4-813e-a4c124819adb" valueTypeId="dd8f1e1d-0ff9-4cdb-b797-a48adc391d65"/>
+    <refType typeId="7d303fa9-55cd-4ecf-9819-dc6c623c9baa" valueTypeId="473d7e6b-abe8-406f-9133-d7f0f0d4d438"/>
+    <selectionType typeId="1c29466c-69e2-4975-bd23-7a485ce86136" valueTypeId="b539d864-2fa5-4e2c-bc85-ad9fd6140756"/>
+    <listType typeId="eddf0e1f-ca91-494f-a31c-2204ab207e43" valueTypeId="ebc39076-61da-4096-a6fe-d67f33490311"/>
+    <managerType typeId="e5304fdc-e3bc-4752-be3b-d983242f7573" valueTypeId="a0bace6c-5183-456b-9b23-5799f69862a9"/>
+  </producedTypes>
+  <name>Абонемент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонемент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Абонемент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c82cbf91-4015-4c74-a4d3-8b12a52ee446">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Подразделение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
