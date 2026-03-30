@@ -38,7 +38,7 @@
       <value>Тип контрагента</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипКонтрагента</types>
+      <types>EnumRef.ВидКонтрагента</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

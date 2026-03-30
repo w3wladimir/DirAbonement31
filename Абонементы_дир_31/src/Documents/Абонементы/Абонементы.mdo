@@ -7,13 +7,13 @@
     <listType typeId="eddf0e1f-ca91-494f-a31c-2204ab207e43" valueTypeId="ebc39076-61da-4096-a6fe-d67f33490311"/>
     <managerType typeId="e5304fdc-e3bc-4752-be3b-d983242f7573" valueTypeId="a0bace6c-5183-456b-9b23-5799f69862a9"/>
   </producedTypes>
-  <name>Абонемент</name>
+  <name>Абонементы</name>
   <synonym>
     <key>ru</key>
-    <value>Абонемент</value>
+    <value>Абонементы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Абонемент.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Абонементы.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

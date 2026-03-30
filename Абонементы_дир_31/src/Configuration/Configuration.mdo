@@ -2308,7 +2308,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.Абонемент</documents>
+  <documents>Document.Абонементы</documents>
   <documents>Document.УстановкаЦенАбонементов</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
@@ -2417,7 +2417,7 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
-  <enums>Enum.ТипКонтрагента</enums>
+  <enums>Enum.ВидКонтрагента</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>

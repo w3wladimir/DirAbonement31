@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.Абонемент</content>
+  <content>Document.Абонементы</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

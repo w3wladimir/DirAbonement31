@@ -5,10 +5,10 @@
     <listType typeId="c8816285-31f3-4f89-ab6a-ba07238d3234" valueTypeId="24e9ebe3-8804-4100-974c-9c6246de9656"/>
     <managerType typeId="8eb385f2-c019-42f1-940e-7be1369c86cd" valueTypeId="02283188-16ee-4fa1-8bac-d25ed2620625"/>
   </producedTypes>
-  <name>ТипКонтрагента</name>
+  <name>ВидКонтрагента</name>
   <synonym>
     <key>ru</key>
-    <value>Тип контрагента</value>
+    <value>Вид контрагента</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
