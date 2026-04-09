@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="061f85bc-0c54-4b46-9c24-bed79f00cf72">
+  <producedTypes>
+    <refType typeId="4ce3abaa-d134-4e6c-b9a0-5b4880fef570" valueTypeId="d6736c13-ae1a-4e99-824c-dac921ecf902"/>
+    <listType typeId="a2ac53e9-ecbd-4486-8118-f8852b7e6e04" valueTypeId="efb7f8aa-0528-42be-b7f1-c61a1461c6a4"/>
+    <managerType typeId="a7aa7b05-a7bc-4d87-8e49-3f36ac79553d" valueTypeId="bb15e16d-ba4e-455d-8757-add937b38e60"/>
+  </producedTypes>
+  <name>ВидыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды абонементов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d8b81cb8-c942-4a74-b914-3642c1eed362">
+    <name>Фиксированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32e16eb9-0554-4ee3-9c03-56e29864927f">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>На количество посещений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69c747e0-9a7b-4362-a837-e045aad5e9c2">
+    <name>Свободный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66f9091d-7d4c-4be0-9ed2-b2e79dddb9d4">
+    <name>ИндивидуальныеЗанятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальные занятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ed5f4df-fd6a-4c0a-b68f-8002a4acb74c">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

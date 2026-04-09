@@ -7,5 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЛокацииПодразделения</content>
+  <content>Catalog.ВидыУслуг</content>
+  <content>Constant.ОкруглениеЦеныАбонемента</content>
+  <content>Catalog.ПараметрыНастройкиПрограммы</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b8fc04c-0925-4552-9bb8-9875f2fe9270">
+  <producedTypes>
+    <objectType typeId="864c9913-dc1c-42d6-81a0-ab48cd48cd18" valueTypeId="76d697b5-13e8-4417-8e5d-1110175a9a0d"/>
+    <refType typeId="12cb49fb-6322-403f-9a1b-0acbcac4601c" valueTypeId="1eda3258-d1b9-40bc-8bf0-bc80eda9c57f"/>
+    <selectionType typeId="ccc05c3f-0176-4650-ab26-c560ea51bde3" valueTypeId="24a54bf8-983a-427a-a8db-60539310eadf"/>
+    <listType typeId="9a691cb1-f8e1-4230-892f-3b7fb2d727ce" valueTypeId="2095e425-68f1-447f-aac2-3da73f3c6360"/>
+    <managerType typeId="3d15f118-598f-42d6-8eb8-fec06fe0d07d" valueTypeId="f4b5316f-46b3-4eb4-9b39-e3db11c85b9a"/>
+  </producedTypes>
+  <name>ЛокацииПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локации подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛокацииПодразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛокацииПодразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

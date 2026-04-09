@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4783cfc5-2913-4cab-868b-63d11c3601f0">
+  <producedTypes>
+    <objectType typeId="e91d93cf-9b08-4313-bfad-3090a6673720" valueTypeId="91445a68-6f66-4e57-9f78-3d4bab60d48a"/>
+    <refType typeId="ce39347d-1afc-4359-88d2-76dd5ea7b666" valueTypeId="4762464d-2eb5-4cc0-bfd4-7d0836ed970a"/>
+    <selectionType typeId="3f6d7183-f074-4685-8101-7c3dc6c63a3f" valueTypeId="7d5e4171-b262-43de-8552-312271aab37a"/>
+    <listType typeId="ba8aaca9-a02e-40e5-909c-1c9cdde89c7d" valueTypeId="0abf8d82-3828-4186-b2e7-3731028ac9ef"/>
+    <managerType typeId="af026cc7-fd59-4e81-a0d8-91372ed5a3d5" valueTypeId="b6e42aa9-270b-4919-adcc-263fbd46cd51"/>
+    <containerType typeId="165591a2-ca1b-4b77-aa3d-0865a14d6f4b" valueTypeId="8f461de4-e6f3-4a6c-9685-d22358ed59f9"/>
+  </producedTypes>
+  <name>ПараметрыНастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры настройки программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыНастройкиПрограммы.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыНастройкиПрограммы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.ПараметрыНастройкиПрограммы</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

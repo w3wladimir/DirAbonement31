@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77f1f927-3a8d-4249-a5b3-2a416639b3e9">
+  <producedTypes>
+    <refType typeId="1dcaafd5-d448-4936-bb1f-0529569c786c" valueTypeId="959a62b9-805b-4713-90d0-4165a56db122"/>
+    <listType typeId="12695ce3-992a-41a0-a292-b4d853477733" valueTypeId="05c75f51-ba12-4271-a3cf-1b9e8e3a520c"/>
+    <managerType typeId="313b35de-a2cf-4025-9c17-4d9b6b537b5b" valueTypeId="74266225-41c1-4c59-a626-b63cfe888fbe"/>
+  </producedTypes>
+  <name>ДниНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a49e53fc-0abd-46b1-acb4-a23a1ed566c2">
+    <name>Понедельник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Понедельник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e9231fb-bf10-4aa0-a40e-ab7ae17f679e">
+    <name>Вторник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1025f49-9f92-467e-b276-15ca85f41059">
+    <name>Среда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="820bf04d-d038-4f23-b9a9-0433a72231f7">
+    <name>Четверг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четверг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f224718-0d84-4e3f-9c2b-ba34fc95228a">
+    <name>Пятница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cff457cd-0959-43ac-b033-34904d446484">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba960f1f-0938-4384-a281-b05bc8869a62">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

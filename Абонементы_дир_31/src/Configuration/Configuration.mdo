@@ -2114,6 +2114,7 @@
   <constants>Constant.ХранитьИсториюРассылкиОтчетов</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
+  <constants>Constant.ОкруглениеЦеныАбонемента</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.АвтономнаяРаботаВМоделиСервиса</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
@@ -2297,6 +2298,9 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЛокацииПодразделения</catalogs>
+  <catalogs>Catalog.ВидыУслуг</catalogs>
+  <catalogs>Catalog.ПараметрыНастройкиПрограммы</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2418,6 +2422,8 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.ВидыАбонементов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2728,6 +2734,7 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПараметрыНастройкиПрограммы</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
   <tasks>Task.ЗадачаИсполнителя</tasks>
 </mdclass:Configuration>

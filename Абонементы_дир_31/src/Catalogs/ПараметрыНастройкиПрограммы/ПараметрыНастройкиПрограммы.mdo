@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5b639c6-904f-4aea-ac2f-a3f0df850027">
+  <producedTypes>
+    <objectType typeId="7115c276-ccaa-40d5-81db-ec8013865c83" valueTypeId="ae7f429e-2312-4561-b25e-0d32ddf1344a"/>
+    <refType typeId="4f258474-c790-4807-ba73-681556cc4872" valueTypeId="7685a7f0-d7f8-4632-b135-8578c5a57ed5"/>
+    <selectionType typeId="0bdaf5e6-b4c6-41b6-b6ef-7841fc12227d" valueTypeId="bf2b1327-0e3f-41a6-a7db-a5e4e32bf15b"/>
+    <listType typeId="bf53730d-0f89-438d-b319-57c81e01e28d" valueTypeId="343c4d09-91aa-4176-be5f-daba32a2aedd"/>
+    <managerType typeId="d1dee1ee-49f0-4c56-8938-6235a0692e05" valueTypeId="591d88d3-015f-440f-80f3-2fb5438e29a9"/>
+  </producedTypes>
+  <name>ПараметрыНастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры настройки программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПараметрыНастройкиПрограммы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПараметрыНастройкиПрограммы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="11b0d9c1-769d-4df3-9013-4819bfdd0df7">
+      <name>ОкруглениеЦеныАбонемента</name>
+      <description>Округление цены абонемента</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

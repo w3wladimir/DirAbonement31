@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cb22d56-b5d3-40b8-b973-46cffff2c9eb">
+  <producedTypes>
+    <objectType typeId="694207d8-37b6-4958-859b-bf3aa338c14b" valueTypeId="80fb1cea-99d6-435e-9f6d-c9593442d353"/>
+    <refType typeId="32126b35-230a-47a5-b21f-a2d65db05fbb" valueTypeId="be17caa6-134e-47a7-a2cf-1c487151241c"/>
+    <selectionType typeId="e02701d5-02a7-4925-83cb-af0bba2e9db5" valueTypeId="d0702bcf-c2f5-4c73-b7f7-6f00a8bf29d8"/>
+    <listType typeId="ffcfd51c-c31d-41cb-a9b0-6372d907fa09" valueTypeId="2c316b10-98b7-4523-8258-8cf660c1815e"/>
+    <managerType typeId="e9cf5001-796b-41e4-a7b9-a8d59ae973b9" valueTypeId="2f63897f-1fb4-437b-8e90-8e1850fa496f"/>
+  </producedTypes>
+  <name>ВидыУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды услуг</value>
+  </synonym>
+  <comment>Виды занятий</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыУслуг.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыУслуг.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="414cd8ec-e837-4f5e-b781-0f0b9f8ff577">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f507c4a1-bd4f-4a37-8de0-2a01139bc28f">
+    <name>НаименованиеДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование для печати</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -33,14 +33,11 @@
     </synonym>
     <comment>В терминах дирекции - Объект (ФОК, стадион, каток...)</comment>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>DefinedType.Подразделение</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -70,14 +67,11 @@
       <value>Вид услуги</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ВидыУслуг</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -88,14 +82,14 @@
       <value>Начало действия расписания</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -106,9 +100,24 @@
       <value>Вид абонемента</value>
     </synonym>
     <type>
+      <types>EnumRef.ВидыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0ebd806-a392-4ae8-a148-a50889ec7459">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>250</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -122,17 +131,17 @@
       <objectType typeId="5cc9ec45-9437-4220-a0f0-99ac14bb1c89" valueTypeId="0ceaf30a-8e9c-4c4e-99e0-a86d4fc070b3"/>
       <rowType typeId="a42199ac-9ede-46ae-bc52-8b1a708b7b87" valueTypeId="b6e68058-aca9-4c25-a87a-b17979f6b335"/>
     </producedTypes>
-    <name>ТабличнаяЧасть</name>
+    <name>ВариантыОказанияУслуг</name>
     <synonym>
       <key>ru</key>
-      <value>Табличная часть</value>
+      <value>Варианты оказания услуг</value>
     </synonym>
-    <comment>ВариантыОказанияУслуг</comment>
+    <comment>Варианты оказания услуг</comment>
     <attributes uuid="3d4b4993-be4d-4b60-a4d8-b1b18c72da70">
-      <name>Период</name>
+      <name>ПреставлениеПериода</name>
       <synonym>
         <key>ru</key>
-        <value>Период</value>
+        <value>Преставление периода</value>
       </synonym>
       <type>
         <types>String</types>
@@ -146,11 +155,12 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="eb910f42-d3ff-4274-950a-51956c0b6637">
-      <name>КоличествоПосещений</name>
+      <name>ВариантыПосещения</name>
       <synonym>
         <key>ru</key>
-        <value>Количество посещений</value>
+        <value>Варианты посещения</value>
       </synonym>
+      <comment>4 посещения, 8 посещений, разовый, до конца сезона, 1месяц, 2 месяца...</comment>
       <type>
         <types>String</types>
         <stringQualifiers>
@@ -206,6 +216,84 @@
         <numberQualifiers>
           <precision>15</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="8c532e2b-3025-4881-aaa5-ab360f9a6e2a">
+    <producedTypes>
+      <objectType typeId="588c18b9-9af6-4cc4-90ac-096b854f287f" valueTypeId="f15bfd31-834b-474c-9de4-141f7785698c"/>
+      <rowType typeId="eab49e01-6795-4682-861b-556c43adce7f" valueTypeId="d564fa55-b03c-4966-a703-97a215079551"/>
+    </producedTypes>
+    <name>ПериодыОказанияУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды оказания услуг</value>
+    </synonym>
+    <attributes uuid="5ff94f91-36dd-4d5e-b3bf-1a9057b28afb">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="033c3a59-7cad-40c0-aae0-9b263a9688c2">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6fb9e87-b037-48b6-8d14-2542032334d5">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="242272d9-1a0d-49a2-8ff8-67b7db367a01">
+      <name>ИндексСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>

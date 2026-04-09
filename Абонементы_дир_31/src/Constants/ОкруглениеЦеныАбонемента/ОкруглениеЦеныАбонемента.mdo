@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6458a4-6d22-4c3d-8d7e-243e434c2478">
+  <producedTypes>
+    <managerType typeId="ab2f8a9c-f1ed-4787-812d-ee1c39c0f22c" valueTypeId="6ad5ab45-bf97-4ead-a6af-34e6a25f1605"/>
+    <valueManagerType typeId="3d50334f-e564-4ef3-a1df-d55aa2436043" valueTypeId="167bb7d9-bbc2-4666-9630-70950e1ef8c9"/>
+    <valueKeyType typeId="20b3006b-04af-46be-a54d-15230ab1ae9b" valueTypeId="74ca0748-b257-4a08-8ab6-c6f50bc9948c"/>
+  </producedTypes>
+  <name>ОкруглениеЦеныАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Округление цены абонемента</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
