@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbd9d39a-0317-44f3-87f4-abf6466d810d">
+  <producedTypes>
+    <selectionType typeId="16327f50-2b6c-4997-9e6c-3e03b1a7b9c7" valueTypeId="c85d258f-579d-44cd-a1cf-989321a2d531"/>
+    <listType typeId="55258588-68dc-4902-ae22-ce186d36a14b" valueTypeId="cfe53c56-2204-4a33-8bf7-c209679b6bd4"/>
+    <managerType typeId="7ccfd747-dba3-4724-a3a6-91084488dca2" valueTypeId="098aafd2-9730-43b0-b8ac-8d99282cab7f"/>
+    <recordSetType typeId="abf2822e-6a9f-4036-bcde-b54769bf1694" valueTypeId="0602901f-96c9-4731-b4af-16f90e1a9fc4"/>
+    <recordKeyType typeId="6edf9d24-ae07-43d0-9371-b68b3f27729d" valueTypeId="eda7b23e-8aa6-4b65-a030-e3316088f174"/>
+    <recordType typeId="0b93f6db-b04c-4236-95d7-ab666618d0b3" valueTypeId="ca54968c-1cee-407f-b519-9a9f35d8b895"/>
+    <recordManagerType typeId="34ee114c-2729-47ff-982a-f7f5e010b95a" valueTypeId="147a86aa-1f64-42ff-8fb7-42e1f31cb0d2"/>
+  </producedTypes>
+  <name>ПараметрыНастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры настройки программы</value>
+  </synonym>
+  <comment>Реализация хранения периодических констант для функционирования программы</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1bf695f-e5c1-4a71-a95d-ec6b12905027">
+    <name>ЗначениеПараметраНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра настройки</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыНастройкиПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4ca109f9-2964-4641-9a4f-7ba14f1a216a">
+    <name>ПараметрНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр настройки</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыНастройкиПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -51,7 +51,6 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
-  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
     <name>Русский</name>
@@ -822,6 +821,7 @@
   <sessionParameters>SessionParameter.ТипыВладельцевНастроекПрав</sessionParameters>
   <sessionParameters>SessionParameter.ТипыЗначенийДоступаСГруппами</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущееПодразделение</sessionParameters>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.БазовыеПраваБСП</roles>
@@ -1502,6 +1502,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйРФ</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
+  <commonModules>CommonModule.аб_РаботаСПараметрамиСеанса</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -2424,6 +2425,7 @@
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.ВидыАбонементов</enums>
+  <enums>Enum.ВидыКонстант</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2730,6 +2732,7 @@
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписиМЧД</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыНастройкиПрограммы</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

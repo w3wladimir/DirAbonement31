@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыУслуг.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="414cd8ec-e837-4f5e-b781-0f0b9f8ff577">
     <name>Префикс</name>
     <synonym>
@@ -67,4 +68,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4aa9dffa-7f26-4a62-8f74-f7904b58a7dd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

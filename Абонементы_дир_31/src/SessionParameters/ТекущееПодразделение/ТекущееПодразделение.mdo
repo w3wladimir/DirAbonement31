@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd04660-50c1-4552-9bf3-0bf3568bcd4f">
+  <name>ТекущееПодразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущее подразделение</value>
+  </synonym>
+  <comment>Объект (ФОК, стадион, каток итп)</comment>
+  <type>
+    <types>DefinedType.Подразделение</types>
+  </type>
+</mdclass:SessionParameter>

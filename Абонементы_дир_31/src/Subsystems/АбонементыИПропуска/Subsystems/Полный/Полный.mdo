@@ -11,5 +11,8 @@
   <content>Catalog.ВидыУслуг</content>
   <content>Constant.ОкруглениеЦеныАбонемента</content>
   <content>Catalog.ПараметрыНастройкиПрограммы</content>
+  <content>Enum.ВидыКонстант</content>
+  <content>InformationRegister.ПараметрыНастройкиПрограммы</content>
+  <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

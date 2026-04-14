@@ -27,8 +27,8 @@
     <types>Date</types>
     <types>Number</types>
     <numberQualifiers>
-      <precision>15</precision>
-      <scale>3</scale>
+      <precision>10</precision>
+      <scale>2</scale>
     </numberQualifiers>
     <stringQualifiers>
       <length>150</length>
