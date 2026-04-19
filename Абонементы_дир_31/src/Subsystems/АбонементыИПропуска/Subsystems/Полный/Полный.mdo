@@ -6,10 +6,7 @@
     <value>Полный</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Catalog.ЛокацииПодразделения</content>
-  <content>Catalog.ВидыУслуг</content>
   <content>Constant.ОкруглениеЦеныАбонемента</content>
-  <content>Catalog.ПараметрыНастройкиПрограммы</content>
   <content>Enum.ВидыКонстант</content>
   <content>InformationRegister.ПараметрыНастройкиПрограммы</content>
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>

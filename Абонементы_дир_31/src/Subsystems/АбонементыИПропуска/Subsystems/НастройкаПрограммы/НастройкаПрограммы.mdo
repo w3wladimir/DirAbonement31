@@ -15,6 +15,7 @@
   <content>Catalog.ЛокацииПодразделения</content>
   <content>Catalog.ВидыУслуг</content>
   <content>Constant.ОкруглениеЦеныАбонемента</content>
+  <content>Catalog.ПараметрыНастройкиПрограммы</content>
   <content>CommonCommand.ПереключитьПодразделение</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

@@ -929,6 +929,9 @@
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
   <roles>Role.ШифрованиеИРасшифровкаДанных</roles>
+  <roles>Role.аб_ПродажаАбонементов</roles>
+  <roles>Role.аб_ВыдачаПропусков</roles>
+  <roles>Role.аб_НастройкаПрограммы</roles>
   <commonTemplates>CommonTemplate.ВидыДокументовУдостоверяющихЛичность</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
