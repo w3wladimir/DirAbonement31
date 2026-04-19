@@ -6,7 +6,6 @@
     <value>Абонементы и пропуска</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.аб_РаботаСПараметрамиСеанса</content>
   <content>CommonCommand.ПереключитьПодразделение</content>
@@ -14,5 +13,4 @@
   <subsystems>АбонементыПродажа</subsystems>
   <subsystems>ПропускаВыдача</subsystems>
   <subsystems>НастройкаПрограммы</subsystems>
-  <subsystems>РазработкаСиситемы</subsystems>
 </mdclass:Subsystem>

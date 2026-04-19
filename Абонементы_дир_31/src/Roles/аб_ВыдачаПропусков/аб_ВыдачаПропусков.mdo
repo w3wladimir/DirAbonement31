@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e9ad435-5e0a-4548-9f9f-834e858641df">
-  <name>аб_ВыдачаПропусков</name>
-  <synonym>
-    <key>ru</key>
-    <value>Выдача пропусков</value>
-  </synonym>
-</mdclass:Role>
