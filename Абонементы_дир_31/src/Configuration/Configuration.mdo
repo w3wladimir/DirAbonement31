@@ -1937,6 +1937,7 @@
   <commonCommands>CommonCommand.УдалитьНастройкуСинхронизации</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
+  <commonCommands>CommonCommand.ПереключитьПодразделение</commonCommands>
   <commandGroups>CommandGroup.Взаимодействия</commandGroups>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
@@ -2220,6 +2221,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ФормаПроизвольногоСообщения</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm.СменаТекущегоПодразделения</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>

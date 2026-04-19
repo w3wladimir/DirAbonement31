@@ -6,7 +6,6 @@
     <value>Полный</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ЛокацииПодразделения</content>
   <content>Catalog.ВидыУслуг</content>
   <content>Constant.ОкруглениеЦеныАбонемента</content>
@@ -14,5 +13,6 @@
   <content>Enum.ВидыКонстант</content>
   <content>InformationRegister.ПараметрыНастройкиПрограммы</content>
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
+  <content>CommonModule.аб_РаботаСПараметрамиСеанса</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>
 </mdclass:Subsystem>

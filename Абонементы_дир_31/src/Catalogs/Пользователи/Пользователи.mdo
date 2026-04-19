@@ -386,6 +386,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9193b63f-5156-4e10-add2-054d3d42d69a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="245f870e-a53a-4d86-aa0a-c0c7709b8acb">
     <producedTypes>
       <objectType typeId="d775216b-7adc-4b4e-972d-b6ad881e79dd" valueTypeId="16c681bb-1a49-44e1-82a6-4af12b00b701"/>
@@ -744,6 +759,32 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
+  </tabularSections>
+  <tabularSections uuid="fdaeb46c-9269-4239-8330-285cbe397c7e">
+    <producedTypes>
+      <objectType typeId="f12a3c7e-0c39-4abb-9e09-89dda420424b" valueTypeId="754839e6-7236-4d47-8ff3-8b7509c48637"/>
+      <rowType typeId="3cd8e59e-12eb-4ec8-977a-43d202963f45" valueTypeId="ce1d1f1f-6ce8-45b8-a927-17e0ba9ac729"/>
+    </producedTypes>
+    <name>ПодразделенияПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения пользователя</value>
+    </synonym>
+    <attributes uuid="bbe2f682-3c62-43b3-9b1b-46616c9fba72">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Подразделение</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
   </tabularSections>
   <forms uuid="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
