@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="012ca6e7-f627-42a0-a100-fb06725edba8">
+  <name>УстановитьТекущееПодразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить текущее подразделение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Услуги</types>
+    <types>DocumentObject.Абонемент</types>
+    <types>CatalogObject.ЛокацииПодразделения</types>
+    <types>DocumentObject.УстановкаЦенАбонементов</types>
+  </source>
+  <event>Filling</event>
+</mdclass:EventSubscription>

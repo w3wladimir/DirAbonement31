@@ -13,7 +13,7 @@
   <content>Catalog.Контрагенты</content>
   <content>Document.УстановкаЦенАбонементов</content>
   <content>Catalog.ЛокацииПодразделения</content>
-  <content>Catalog.ВидыУслуг</content>
+  <content>Catalog.Услуги</content>
   <content>Constant.ОкруглениеЦеныАбонемента</content>
   <content>CommonCommand.ПереключитьПодразделение</content>
   <parentSubsystem>Subsystem.АбонементыИПропуска</parentSubsystem>

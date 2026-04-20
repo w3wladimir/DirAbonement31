@@ -1503,6 +1503,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйРФ</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
   <commonModules>CommonModule.аб_РаботаСПараметрамиСеанса</commonModules>
+  <commonModules>CommonModule.аб_ОбработкаСобытий</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1671,6 +1672,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокументаЗащитаПДн</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьТекущееПодразделение</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
@@ -2302,7 +2304,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ЛокацииПодразделения</catalogs>
-  <catalogs>Catalog.ВидыУслуг</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
   <catalogs>Catalog.ПараметрыНастройкиПрограммы</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
@@ -2315,7 +2317,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.Абонементы</documents>
+  <documents>Document.Абонемент</documents>
   <documents>Document.УстановкаЦенАбонементов</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>

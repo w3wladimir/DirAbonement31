@@ -67,7 +67,7 @@
       <value>Вид услуги</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыУслуг</types>
+      <types>CatalogRef.Услуги</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

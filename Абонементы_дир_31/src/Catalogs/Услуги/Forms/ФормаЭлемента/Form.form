@@ -188,7 +188,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.ВидыУслуг</types>
+      <types>CatalogObject.Услуги</types>
     </valueType>
     <view>
       <common>true</common>

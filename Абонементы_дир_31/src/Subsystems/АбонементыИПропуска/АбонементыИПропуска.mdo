@@ -9,6 +9,7 @@
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.аб_РаботаСПараметрамиСеанса</content>
   <content>CommonCommand.ПереключитьПодразделение</content>
+  <content>EventSubscription.УстановитьТекущееПодразделение</content>
   <subsystems>Полный</subsystems>
   <subsystems>АбонементыПродажа</subsystems>
   <subsystems>ПропускаВыдача</subsystems>
